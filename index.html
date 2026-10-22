@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mémé Tartine · Lunch à Mons</title>
+  <meta name="description" content="Mémé Tartine, rue de la Coupe 40 à Mons. Tartines, spianatas, buns et salades, du mardi au samedi de 11h30 à 15h. Espèces ou Payconiq.">
+  <link rel="icon" href="assets/grand-mere.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Mémé Tartine",
+    "servesCuisine": "Tartines",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue de la Coupe 40",
+      "postalCode": "7000",
+      "addressLocality": "Mons",
+      "addressCountry": "BE"
+    },
+    "telephone": "+32488880481",
+    "email": "memetartines@gmail.com",
+    "openingHours": "Tu-Sa 11:30-15:00",
+    "paymentAccepted": "Cash, Payconiq",
+    "sameAs": [
+      "https://www.facebook.com/memetartines",
+      "https://www.instagram.com/memetartines/",
+      "https://www.threads.com/@memetartines"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#carte">Aller à la carte</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand-lockup" href="#accueil">
+        <img src="assets/logo-script.png?v=2" alt="" width="182" height="133">
+        <span class="visually-hidden">Mémé Tartine</span>
+      </a>
+      <p class="brand-hours">Mar–sam<br>11h30–15h</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="hero-layout">
+            <div class="hero-art">
+              <img class="mark" src="assets/hero-mark.png" width="192" height="316" alt="Mémé, illustration d’une grand-mère à lunettes et chignon, avec le nom en script.">
+            </div>
+            <div class="hero-copy">
+              <h1>Mémé Tartine</h1>
+              <p class="tagline">Fait maison avec amour • Produits ultra frais</p>
+              <div class="pills">
+                <p class="pill hours">Mardi – samedi · 11h30 – 15h00</p>
+                <p class="pill pay">Espèces ou Payconiq · pas de terminal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bases">
+      <div class="wrap">
+        <h2>1. Choisissez votre base</h2>
+        <div class="bases">
+          <article class="base pain"><strong>Tranche de pain</strong><span>Multicéréales ou blanc</span></article>
+          <article class="base moment"><strong>Pain du moment</strong></article>
+          <article class="base spianata"><strong>Spianata</strong><span>Crêpe de pain moelleuse</span></article>
+          <article class="base bun"><strong>Bun au maïs</strong></article>
+          <article class="base salade"><strong>Salade</strong><span>Tomates, oignons &amp; concombre</span></article>
+        </div>
+        <p class="note">Sans précision de votre part, le choix du pain vous sera réservé… par nos soins&nbsp;!</p>
+      </div>
+    </section>
+
+    <section class="section" id="carte">
+      <div class="wrap">
+        <h2>La carte</h2>
+        <div class="filters" role="toolbar" aria-label="Filtrer la carte">
+          <button type="button" data-filter="all" aria-pressed="true">Tout</button>
+          <button type="button" data-filter="veg" aria-pressed="false">Végétarien</button>
+          <button type="button" data-filter="porc" aria-pressed="false">Porc</button>
+          <button type="button" data-filter="poulet" aria-pressed="false">Poulet</button>
+          <button type="button" data-filter="mer" aria-pressed="false">Produits de la mer</button>
+          <button type="button" data-filter="enfant" aria-pressed="false">Enfant</button>
+        </div>
+
+        <section class="menu-section" data-cat="veg" aria-labelledby="titre-veg">
+          <div class="cat-head">
+            <h2 id="titre-veg">Végétarien</h2>
+          </div>
+          <div class="dishes">
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé au Potager</h3><p class="price">13,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span><span class="badge soft">Salade incluse</span></p>
+              <p class="boost">Booster : Falafel / Boulette végé (+3,50&nbsp;€)</p>
+              <p class="ingredients">Ricotta, courgettes &amp; aubergines grillées, tomates confites, pesto, mélange de graines et basilic frais.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque, Gluten</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé au Jardin</h3><p class="price">14,00&nbsp;€</p></div>
+              <p class="boost">Booster : Saumon fumé / Jambon de Parme (+4,00&nbsp;€)</p>
+              <p class="ingredients">Mozzarella, guacamole maison, avocat, tomates cerises, pesto, mélange de graines, coriandre et mesclun.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Pétillante</h3><p class="price">15,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Croquettes d’aubergine, mesclun, tzatziki, chou grillé, olives, concombre, pickles d’oignon rouge, parmesan, tomates cerises, croquettes d’aubergine, graines et aneth.</p>
+              <p class="allergens">Allergènes : Lait, Gluten, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé fait de la Randonnée</h3><p class="price">15,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Rondin de chèvre d’Ardenne, cottage cheese, mesclun, concombre, tomates cerises, noix, miel, mélange de graines, ananas et ciboulette.</p>
+              <p class="allergens">Allergènes : Lait, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Légèreté de Mémé</h3><p class="price">17,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Falafels, mesclun, tzatziki, poivrons&amp;aubergines grillés, pickles d’oignon, épis de maïs, pesto, fêta, tomates cerises, olives, graines et aneth frais.</p>
+              <p class="allergens">Allergènes : Lait, Gluten, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé en Chine</h3><p class="price">17,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Nems végétariens croustillants, wakamé, salade de blé, carottes, chou marinés, edamames, coriandre, radis, cacahuètes et sauce soja-sésame.</p>
+              <p class="allergens">Allergènes : Gluten, Soja, Sésame, Arachides</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La végé Gourmande</h3><p class="price">18,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Escalope végétarienne, houmous, mesclun, betterave marinée, fêta, tomates cerises, burrata, avocat, lamelles de pomme, pesto, graines et aneth.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque, Soja</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Folie de mémé</h3><p class="price">17,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Cottage cheese, mesclun, melon / pastèque (selon saison), burrata, chou mariné, tomates cerises, pickel doignon rouge, concombre, avocat, olives, pesto, basilic et graines.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-section" data-cat="porc" aria-labelledby="titre-porc">
+          <div class="cat-head"><h2 id="titre-porc">Porc</h2></div>
+          <div class="dishes">
+            <article class="dish">
+              <div class="dish-top"><h3>Oh La Biquette</h3><p class="price">15,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Fromage blanc, mesclun, bacon crispy, rondin de chèvre d’Ardenne, sirop de Liège, nectarine ou lamelle de pomme (selon la saison), concombre, tomate cerise, ciboulette et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé en Italie</h3><p class="price">13,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge soft">Salade incluse</span></p>
+              <p class="boost">Boost avocat (+2,50&nbsp;€)</p>
+              <p class="ingredients">Jambon de Parme, pesto, mozzarella, trio de tomates, basilic, crème de balsamique et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Diplomate</h3><p class="price">15,50&nbsp;€</p></div>
+              <p class="ingredients">Jambon de Parme, guacamole, mesclun, mozzarella, avocat, trio de tomates, pesto, basilic et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Roma</h3><p class="price">15,00&nbsp;€</p></div>
+              <p class="ingredients">Ricotta, mesclun, chorizo, mozzarella, trio de tomates, crème de balsamique, parmesan, pesto et basilic frais.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Tartine d’Amour</h3><p class="price">18,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Jambon de Parme, guacamole, mesclun, concombre, tomates séchées &amp; cerises, burrata, basilic, parmesan, crème de balsamique, pesto, graines, avocat et lamelles de pomme.</p>
+              <p class="allergens">Allergènes : Lait, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé sous les Tropiques</h3><p class="price">17,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="boost">Boost avocat (+2,5&nbsp;€)</p>
+              <p class="ingredients">Jambon de Parme, fromage blanc, betterave marinée, mesclun, rondin de chèvre d’Ardenne, pomme, noix, miel et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Craquante</h3><p class="price">17,50&nbsp;€</p></div>
+              <p class="ingredients">Jambon de Parme, tapenade de tomate, mesclun, rondin de chèvre d’Ardenne, croquettes d’aubergine, tomates cerises, oignons caramélisés, miel, parmesan, basilic et graines.</p>
+              <p class="allergens">Allergènes : Lait, Œufs, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé Latina</h3><p class="price">17,50&nbsp;€</p></div>
+              <p class="ingredients">Chorizo, guacamole, mesclun, olives, anchois marinés, mozzarella, avocat, trio de tomates, pickles d’oignon rouge, zeste de citron, crème de balsamique, pesto et basilic.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Boulette</h3><p class="price">17,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Cottage cheese, mesclun, boulettes, concombre, sirop de liege, pickels d’oignon, lamelle de pomme, parmesan, tomates cerises, pesto et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Gluten, Œufs, Fruits à coque, Sulfites</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>C’est du Candy</h3><p class="price">18,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge new">New</span></p>
+              <p class="ingredients">Guacamole, mesclun, mozzarella, chorizo, mozzarella, tomate cerises&amp;confit, parmesan, escalope végé, anchois, fêta, olives, crème de balsamique, pesto et mélange de graines.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-section" data-cat="poulet" aria-labelledby="titre-poulet">
+          <div class="cat-head"><h2 id="titre-poulet">Poulet</h2></div>
+          <div class="dishes">
+            <article class="dish">
+              <div class="dish-top"><h3>La Bosse</h3><p class="price">13,50&nbsp;€</p></div>
+              <p class="boost">Boost avocat (+2,50&nbsp;€)</p>
+              <p class="ingredients">Effiloché de poulet, guacamole, mesclun, parmesan, mélange de graines, pesto et coriandre fraîche.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque, Soja</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé en Crète</h3><p class="price">16,50&nbsp;€</p></div>
+              <p class="ingredients">Effiloché de poulet, mesclun, tzatziki, concombre, poivrons grillés, pickles d’oignon rouge, fêta, tomates cerises, menthe fraîche et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>L’Emmerdeuse</h3><p class="price">16,50&nbsp;€</p></div>
+              <p class="ingredients">Tapenade d’aubergine, mesclun, effiloché de poulet, poivrons &amp; champignons grillés, parmesan, pesto, aneth frais et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé à Séoul</h3><p class="price">17,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Poulet croustillant, wakamé, mesclun, chou grillé, edamames, carottes, concombre, épis de maïs, pickles d’oignon, cacahuètes, coriandre et sauce soja-sésame.</p>
+              <p class="allergens">Allergènes : Gluten, Soja, Sésame, Arachides</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Joyeuse</h3><p class="price">15,50&nbsp;€</p></div>
+              <p class="ingredients">Effiloché de poulet, ricotta, mesclun, courgettes grillées, pesto, parmesan et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Chaleureuse</h3><p class="price">17,50&nbsp;€</p></div>
+              <p class="ingredients">Effiloché de poulet, ricotta, mesclun, aubergines &amp; courgettes grillées, tomates confites, pickles d’oignons rouges, fêta, pesto, basilic et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Sésame, Fruits à coque</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>Mémé en Terrasse</h3><p class="price">18,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Poulet croustillant, mesclun, tzatziki, chou mariné, courgettes grillées, concombre, fêta, tomates cerises, edamames, parmesan, pickles d’oignon, graines et basilic.</p>
+              <p class="allergens">Allergènes : Lait, Soja, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>L’Aventurière</h3><p class="price">18,00&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Effiloché de poulet, tapenade de tomate, mesclun, burrata, tomates cerises, avocat, lamelles de pomme, parmesan, pesto, basilic et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Fruits à coque, Sésame</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-section" data-cat="mer" aria-labelledby="titre-mer">
+          <div class="cat-head"><h2 id="titre-mer">Produits de la mer</h2></div>
+          <div class="dishes">
+            <article class="dish">
+              <div class="dish-top"><h3>La Paresseuse</h3><p class="price">14,50&nbsp;€</p></div>
+              <p class="boost">Boost avocat (+2,50&nbsp;€)</p>
+              <p class="ingredients">Saumon fumé, fromage aux fines herbes, mesclun, concombre, pickles d’oignon rouge, fêta, tomates cerises, pesto, ciboulette et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Fraîcheur Exotique</h3><p class="price">18,00&nbsp;€</p></div>
+              <p class="ingredients">Croustillants de scampis, fromage blanc, mesclun, burrata, chou grillé, tomates cerises, concombre, edamames, coriandre, ananas, pesto, graines et tzatziki.</p>
+              <p class="allergens">Allergènes : Crustacés, Lait, Fruits à coque, Sésame, Gluten</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Timide</h3><p class="price">16,50&nbsp;€</p></div>
+              <p class="ingredients">Ricotta, mesclun, saumon fumé, chèvre d’Ardenne, chou mariné, ananas, lamelles de pomme, tomates cerises, ciboulette et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Folie de Mémé</h3><p class="price">16,50&nbsp;€</p></div>
+              <p class="ingredients">Saumon fumé, guacamole, mozzarella, mesclun, tomates confites, concombre, aubergines grillées, pesto, aneth frais et mélange de graines.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Délirante</h3><p class="price">19,50&nbsp;€</p></div>
+              <p class="badges"><span class="badge best">Best-seller</span></p>
+              <p class="ingredients">Saumon fumé, ricotta, mesclun, concombre, pickles d’oignon, tomates séchées &amp; cerises, parmesan, burrata, avocat, mélange de graines, balsamique, pesto, zeste de citron et basilic.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Fruits à coque, Sésame</p>
+            </article>
+            <article class="dish">
+              <div class="dish-top"><h3>La Frimeuse</h3><p class="price">15,50&nbsp;€</p></div>
+              <p class="ingredients">Saumon fumé, houmous, mesclun, chou&amp;betterave mariné, pickles d’oignon, tomates cerises, parmesan, mélange de graines, pesto, zeste de citron et aneth.</p>
+              <p class="allergens">Allergènes : Lait, Poisson, Fruits à coque, Sésame</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="menu-section" data-cat="enfant" aria-labelledby="titre-enfant">
+          <div class="cat-head">
+            <h2 id="titre-enfant">Menu enfant</h2>
+            <p>−10 ans · 10,00&nbsp;€</p>
+          </div>
+          <div class="dishes">
+            <article class="dish">
+              <div class="dish-top"><h3>Compose ton assiette</h3><p class="price">10,00&nbsp;€</p></div>
+              <p class="ingredients">Une tranche de pain blanc avec ou sans mesclun (1 tapenade + 1 protéine + 1 crudité + 1 fromage).</p>
+              <ol class="steps">
+                <li>Une tapenade : houmous, mayo, pesto, fromage blanc, ricotta</li>
+                <li>Une protéine : poulet, jambon de Parme ou saumon</li>
+                <li>1 crudité : tomate, concombre ou chou mariné</li>
+                <li>Un fromage : mozzarella, parmesan ou fêta</li>
+              </ol>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" id="plus">
+      <div class="wrap">
+        <h2>Les petits plus</h2>
+        <div class="plus-list">
+          <article class="plus"><span>Légumes grillés : courgettes, aubergines, champignons, poivrons</span><b>+2,00&nbsp;€</b></article>
+          <article class="plus"><span>Fromages : chèvre Ardenne, parmesan, feta, mozza</span><b>+3,00&nbsp;€</b></article>
+          <article class="plus"><span>Tapenades : houmous, guacamole, aubergine, ricotta</span><b>+2,00&nbsp;€</b></article>
+          <article class="plus"><span>Protéines : saumon fumé, jambon de Parme, poulet</span><b>+4,00&nbsp;€</b></article>
+          <article class="plus"><span>Burrata</span><b>+5,00&nbsp;€</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="infos">
+      <div class="wrap">
+        <h2>Infos pratiques &amp; paiement</h2>
+        <div class="info-list">
+          <article class="info">
+            <p><strong>Femmes enceintes (100&nbsp;% pasteurisés) :</strong> mozzarella, ricotta, burrata, tzatziki, chèvre, fromage frais aux herbes &amp; fêta.</p>
+          </article>
+          <article class="info"><p><strong>Pesto maison</strong> (sans graines ni pignons).</p></article>
+          <article class="info"><p><strong>Mesclun ultra frais</strong> (jeunes pousses, épinard, roquette).</p></article>
+          <article class="info"><p><strong>Mélange de graines</strong> (tournesol, sésame, oignons frits — la parenthèse n’est pas fermée sur la carte).</p></article>
+          <article class="pay-strong">
+            <p>Paiements acceptés : Payconiq, l’application de votre banque belge ou en espèces.</p>
+            <p>Pas de lecteur de carte bancaire. Cash ou Payconiq (pas de terminal de paiement).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <h2>Nous trouver</h2>
+        <p class="intro">Ouvert uniquement le midi. Fermé le dimanche et le lundi.</p>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <p><strong>Mémé Tartine</strong><br>Rue de la Coupe 40<br>7000 Mons<br>Belgique</p>
+            <p><a href="tel:+32488880481">+32 488 88 04 81</a><br>
+            <a href="mailto:memetartines@gmail.com">memetartines@gmail.com</a></p>
+            <p>Mardi – samedi, 11h30 – 15h00</p>
+            <div class="socials">
+              <a href="https://www.facebook.com/memetartines">Facebook</a>
+              <a href="https://www.instagram.com/memetartines/">Instagram</a>
+              <a href="https://www.threads.com/@memetartines">Threads</a>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=M%C3%A9m%C3%A9+Tartine+Rue+de+la+Coupe+40+7000+Mons">Google Maps</a>
+            </div>
+          </article>
+          <article class="map-card">
+            <iframe title="Carte OpenStreetMap : Mémé Tartine, rue de la Coupe 40 à Mons" src="https://www.openstreetmap.org/export/embed.html?bbox=3.9475%2C50.4506%2C3.9564%2C50.4544&amp;layer=mapnik&amp;marker=50.4525224%2C3.9519234"></iframe>
+            <p><a href="https://www.openstreetmap.org/node/3069275770">Voir le point sur OpenStreetMap</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Mémé Tartine · Rue de la Coupe 40, 7000 Mons.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
