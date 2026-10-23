@@ -110,8 +110,20 @@ a { color: var(--blue-deep); }
   border: 0;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .hero {
-  padding: 1.4rem 0 0.4rem;
+  padding: 0.85rem 0 0.1rem;
 }
 
 .hero-card {
@@ -119,7 +131,7 @@ a { color: var(--blue-deep); }
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 32px;
   box-shadow: var(--shadow);
-  padding: 1.2rem 1rem 1.4rem;
+  padding: 0.7rem 1rem 0.75rem;
   text-align: center;
 }
 
@@ -130,7 +142,7 @@ a { color: var(--blue-deep); }
   gap: 0.4rem;
 }
 
-.hero-art .mark { width: min(210px, 58vw); height: auto; }
+.hero-art .mark { width: min(250px, 68vw); height: auto; margin-bottom: -0.35rem; }
 
 .hero-copy {
   display: flex;
@@ -152,7 +164,7 @@ a { color: var(--blue-deep); }
 }
 
 .tagline {
-  margin: 0.55rem 0 0;
+  margin: 0.28rem 0 0;
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -165,7 +177,7 @@ a { color: var(--blue-deep); }
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: 0.75rem;
+  margin-top: 0.42rem;
 }
 
 .pill {
@@ -487,11 +499,11 @@ footer {
   .photo-arrow.prev { left: 0.4rem; }
   .photo-arrow.next { right: 0.4rem; }
   .photo-arrow:disabled { opacity: 0.35; cursor: default; }
-  .hero-card { padding: 1.35rem 1.5rem 1.35rem; text-align: left; }
+  .hero-card { padding: 0.85rem 1.4rem 0.7rem; text-align: left; }
   .hero-layout {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 1.35rem;
+    gap: 1rem;
     align-items: center;
   }
   .hero-art { justify-content: flex-start; }
@@ -505,5 +517,5 @@ footer {
 
 @media (min-width: 980px) {
   .hero h1 { font-size: 6.1rem; text-shadow: 6px 7px 0 var(--orange); }
-  .hero-art .mark { width: 220px; }
+  .hero-art .mark { width: 280px; margin-bottom: 0; }
 }
